@@ -1,0 +1,10 @@
+﻿My algorithm:
+	All philosophers are loaded into individual threads, and their mutex's initialized. The eating function is executed, the first and last philosophers have to grab their current, and the first/last chopstick respectively, so there is a function to do that. The program sleeps for one second every time a philosopher starts to eat, and finishes when all philosophers have eaten the inputted amount of times.
+Assumptions:
+
+	None
+
+
+How to run:
+
+	Execute the Makefile, and run the program with ./dine # of philosophers # of times to eat

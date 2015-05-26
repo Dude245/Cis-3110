@@ -1,0 +1,12 @@
+﻿My algorithm:
+	The "memory" is visually stored in an array so that you can see the memory. The program first reads the input file into an array so it may be used for the 4 memory management functions. The memory array is also used to find holes. Memory is loaded one by one, assuming there is a hole big enough to fit it. Once the hole(s) are too small, a second function removes memory, calling itself recursively until there is enough space for the current piece of memory.
+
+
+Assumptions:
+	
+	Memory can NOT be loaded off the ends of memory
+
+
+How to run:
+	
+	Execute the Makefile, and run the program with ./mem < inputfile.txt
