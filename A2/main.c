@@ -30,7 +30,7 @@ int main(int argc, char *argv[]) {
     }
   }
   //What mode
-  if(mode=1)
+  if(mode==1)
   {
    RR(dMode,vMode,quant);
 
